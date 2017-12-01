@@ -1,0 +1,18 @@
+package kr.co.jtimes.reporter.imagecontainer.common.vo;
+
+import kr.co.jtimes.common.vo.NewsCategoryVo;
+import kr.co.jtimes.common.vo.NewsTypeVo;
+import kr.co.jtimes.reporter.profile.common.vo.ReporterEmployeeVo;
+
+public class TbImageVo {
+
+	private int imgNo;
+	private String imgLocation;
+	private String imgTitle;
+	private String imgAlt;
+	private String imgPath;
+	private String imgAlterState;
+	private ReporterEmployeeVo reporterNo;
+	private NewsTypeVo newsTypeNo;
+	private NewsCategoryVo categoryNo;
+}

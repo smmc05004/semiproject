@@ -1,0 +1,22 @@
+package kr.co.jtimes.news.vo;
+
+import java.util.Date;
+
+import kr.co.jtimes.common.vo.NewsCategoryVo;
+import kr.co.jtimes.common.vo.NewsTypeVo;
+import kr.co.jtimes.reporter.profile.common.vo.ReporterEmployeeVo;
+
+public class TbNewsVo {
+	
+	private int newsNo;
+	private String newsLocation;
+	private String newsTitle;
+	private Long newsContents;
+	private Date regdate;
+	private String newsImgPath;
+	private int newsViewCnt;
+	private String newsSignState;
+	private NewsTypeVo newsTypeNo;
+	private NewsCategoryVo categoryNo;
+	private ReporterEmployeeVo reporterNo;
+}

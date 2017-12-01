@@ -1,0 +1,7 @@
+package kr.co.jtimes.common.vo;
+
+public class NewsCategoryVo {
+	
+	private int categoryNo;
+	private String categoryName;
+}
